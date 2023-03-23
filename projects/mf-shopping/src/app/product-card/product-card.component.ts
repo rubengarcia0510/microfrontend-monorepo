@@ -6,8 +6,7 @@ import { IProductCard } from '../models/product-card.interface';
 @Component({
   selector: 'app-product-card',
   templateUrl: './product-card.component.html',
-  styleUrls: ['./product-card.component.scss'],
-  imports: [CommonModule]
+  styleUrls: ['./product-card.component.scss']
 })
 export class ProductCardComponent {
   @Input() product?: IProductCard;
